@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    background-color: darkolivegreen;
+}
+
+#lanes {
+    background-image: url(img/Untitled.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 700px;
+}
+
+#lanes div {
+    position: relative;
+    margin-bottom: 40px;
+    background-image: url(img/horseStanding.png);
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+#btnStart {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    border: none;
+    background-color: seagreen;
+    color: rgb(223, 193, 27);
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#btnReset {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    width: 170px;
+    transform: translate(-50%, -90%);
+    border: none;
+    background-color: seagreen;
+    color: rgb(223, 193, 27);
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 3px;
+}
+
+#btn:hover {
+    background-color: rgb(48, 202, 115);
+}
+
+#endScreen {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 200px;
+    color: rgb(223, 193, 27);
+    background: rgb(27, 170, 89);
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#winnerText {
+    margin: 32%;
+}
